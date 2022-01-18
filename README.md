@@ -16,6 +16,8 @@ AWS_ACCESS_KEY=
 AWS_SECRET_KEY=
 ```
 
+<!-- badge links -->
+
 [build]: https://github.com/nalbam/nalbam-bot/actions?query=build
 [build-badge]: https://img.shields.io/github/workflow/status/nalbam/nalbam-bot/Test?label=build&style=for-the-badge&logo=github
 
