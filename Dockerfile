@@ -1,14 +1,14 @@
 # Dockerfile
 
-FROM openjdk:8-alpine
-
-ENV TZ=Asia/Seoul
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+FROM openjdk:8-jre-alpine
 
 EXPOSE 8080
+EXPOSE 8081
 
-WORKDIR data
+WORKDIR /data
 
-COPY ROOT.jar .
+ENTRYPOINT ["/bin/sh", "/data/entrypoint.sh"]
 
-CMD ["java", "-jar", "ROOT.jar"]
+COPY ./entrypoint.sh /data/entrypoint.sh
+
+COPY target/*.jar /data/ROOT.jar
