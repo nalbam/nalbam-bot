@@ -1,5 +1,9 @@
 # nalbam-bot
 
+[![build][build-badge]][build]
+[![release][release-badge]][release]
+[![license][license-badge]][license]
+
 ## configuration
 ```
 PROFILE=prod
