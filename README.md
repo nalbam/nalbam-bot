@@ -19,7 +19,7 @@ AWS_SECRET_KEY=
 <!-- badge links -->
 
 [build]: https://github.com/nalbam/nalbam-bot/actions?query=build
-[build-badge]: https://img.shields.io/github/workflow/status/nalbam/nalbam-bot/push?label=build&style=for-the-badge&logo=github
+[build-badge]: https://img.shields.io/github/workflow/status/nalbam/nalbam-bot/build?label=build&style=for-the-badge&logo=github
 
 [release]: https://github.com/nalbam/nalbam-bot/releases
 [release-badge]: https://img.shields.io/github/v/release/nalbam/nalbam-bot?style=for-the-badge&logo=github
